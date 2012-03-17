@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Futility</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.TypeMap">
+<summary>
+ Mutable, thread-safe, keyed-by-type container.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Array">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Byte">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.DateTime">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Decimal">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Dict">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Double">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Global">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Int32">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Int64">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.List">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Map">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.NamedPipeServer">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.FSharpRecord">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.FSharpUnion">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.Tuple">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.Attribute">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.Property">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.Method">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.Enum">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Reflection.Type">
+
+</member>
+<member name="T:Futility.Reflection">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Seq">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Single">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Stream">
+
+</member>
+<member name="M:Futility.StreamExtensions.Stream.AsyncWrite(System.IO.Stream,System.String)">
+<summary>
+ Writes string using default encoding.
+</summary>
+</member>
+<member name="M:Futility.StreamExtensions.Stream.AsyncWriteWithLength(System.IO.Stream,System.String)">
+<summary>
+ Writes Int32 length (or -1 for null), then string, using default encoding.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Futility.StreamExtensions.Stream.AsyncReadString(System.IO.Stream,System.Int32,System.Text.Encoding)">
+<summary>
+ Reads a string of the specified byte length using specified encoding.
+</summary>
+</member>
+<member name="M:Futility.StreamExtensions.Stream.AsyncReadString(System.IO.Stream,System.Int32)">
+<summary>
+ Reads a string of the specified byte length using default encoding.
+</summary>
+</member>
+<member name="M:Futility.StreamExtensions.Stream.AsyncReadString(System.IO.Stream)">
+<summary>
+ Reads Int32 byte length (or -1 for null), then string, using default encoding.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.StreamExtensions">
+
+</member>
+<member name="M:Futility.String.secure(System.Collections.Generic.IEnumerable{System.Char})">
+<summary>
+ Creates a System.Security.SecureString from a string.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:Futility.String.join(System.String,System.Collections.Generic.IEnumerable{System.String})">
+<summary>
+ Concatenates the elements of a sequence, using the specified separator character.
+</summary>
+</member>
+<member name="M:Futility.String.prepend(System.String,System.String)">
+<summary>
+ Prepends a string to another.
+</summary>
+</member>
+<member name="M:Futility.String.append(System.String,System.String)">
+<summary>
+ Appends a string to another.
+</summary>
+</member>
+<member name="M:Futility.String.lastIndexOf(System.String,System.String)">
+<summary>
+ Reports the last occurrence of a string within a string.
+</summary>
+</member>
+<member name="M:Futility.String.indexOf(System.String,System.String)">
+<summary>
+ Reports the first occurrence of a string within a string.
+</summary>
+</member>
+<member name="M:Futility.String.create(System.Int32,System.Char)">
+<summary>
+ Creates a string of the specified length filled with the specified character.
+</summary>
+</member>
+<member name="M:Futility.String.replace(System.String,System.String,System.String)">
+<summary>
+ Replaces &apos;sub&apos; with &apos;repl&apos; in &apos;source&apos;.
+</summary>
+</member>
+<member name="M:Futility.String.get(System.String,System.Int32)">
+<summary>
+ Returns the character at the specified index.
+</summary>
+</member>
+<member name="M:Futility.String.split(Microsoft.FSharp.Collections.FSharpList{System.Char},System.String)">
+<summary>
+ Returns a string list which contains substrings delimited by any of the given characters, with empty entries removed.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Futility.String.trim(System.String)">
+<summary>
+ Returns a string with leading and trailing whitespace removed.
+</summary>
+</member>
+<member name="M:Futility.String.right(System.Int32,System.String)">
+<summary>
+ Returns a substring of the rightmost given number of characters.
+</summary>
+</member>
+<member name="M:Futility.String.range(System.Int32,System.Int32,System.String)">
+<summary>
+ Returns a substring using inclusive boundaries.
+</summary>
+</member>
+<member name="M:Futility.String.sub(System.Int32,System.Int32,System.String)">
+<summary>
+ Returns a substring beginning at the specified index.
+</summary>
+</member>
+<member name="M:Futility.String.left(System.Int32,System.String)">
+<summary>
+ Returns a substring of the leftmost given number of characters.
+</summary>
+</member>
+<member name="M:Futility.String.skip(System.Int32,System.String)">
+<summary>
+ Returns a substring occurring after the given number of characters.
+</summary>
+</member>
+<member name="M:Futility.String.startsWith(System.String,System.String)">
+<summary>
+ Indicates whether a given string begins with the other.
+</summary>
+</member>
+<member name="M:Futility.String.endsWith(System.String,System.String)">
+<summary>
+ Indicates whether a given string ends with the other.
+</summary>
+</member>
+<member name="M:Futility.String.lower(System.String)">
+<summary>
+ Returns a copy of the given string in lowercase using invariant casing rules.
+</summary>
+</member>
+<member name="M:Futility.String.upper(System.String)">
+<summary>
+ Returns a copy of the given string in uppercase using invariant casing rules.
+</summary>
+</member>
+<member name="T:Futility.String">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.TcpServer">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.TimeSpan">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Futility.Uri">
+
+</member>
+</members>
+</doc>
