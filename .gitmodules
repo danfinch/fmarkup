@@ -1,0 +1,3 @@
+[submodule "lib/futility"]
+	path = lib/futility
+	url = https://github.com/danfinch/futility.git

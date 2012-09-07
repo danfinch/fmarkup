@@ -3,9 +3,8 @@ FMarkup is an HTML/CSS generation library and DSL for F#.
 
   * Write HTML and CSS in pure F#
 
-Dependencies (included):
+Dependencies (submodules):
 
-  * FSharp PowerPack
   * Futility: https://github.com/danfinch/futility
   
 License: Apache 2.0
@@ -17,6 +16,3 @@ Copyrights:
 Maintainers:
 
   * Dan Finch (d@nfin.ch)
-
-
-  
