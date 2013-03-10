@@ -11,8 +11,6 @@ module Compact =
   open Prim
   open Elem
   open Attr
-  let (~%%) (l : obj list) = l
-  let (~%) (o : 'a) = o :> obj
   let (~&) (o : 'a option) = o.IsSome // remove?
   let (!) (o : 'a option) = o.Value // remove?
   let (!!) (o : 'a option) = match o with | None -> null | Some(o) -> o :> obj // remove?

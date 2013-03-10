@@ -53,7 +53,7 @@
     <Compile Include="Model.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\lib\futility\src\Futility\Futility.fsproj">
+    <ProjectReference Include="..\..\..\futility\src\Futility\Futility.fsproj">
       <Project>9982C39B-74B0-4B7A-B658-905777359DAD</Project>
       <Name>Futility</Name>
     </ProjectReference>

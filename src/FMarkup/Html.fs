@@ -8,6 +8,8 @@ open Microsoft.FSharp.Reflection
 open Futility
 
 module Prim =
+  let inline (~%%) (l : obj list) = l
+  let inline (~%) (o : 'a) = o :> obj
   let inline elem tag (c : obj list) = 
     let e = {
       Tag           = tag
