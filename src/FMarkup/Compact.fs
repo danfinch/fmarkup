@@ -94,7 +94,7 @@ module Compact =
   let minhi = Css.minHeight
   let maxwi = Css.maxWidth
   let maxhi = Css.maxHeight
-  let lihi = Css.lineHeight
+  let lihi = Css.line.height
   let inl = Css.display.inline'
   let blo = Css.display.block
   let inb = Css.display.inlineBlock
@@ -146,10 +146,7 @@ module Compact =
   let bdbl v = [ bdb v; bdl v ]
   let bdbr v = [ bdb v; bdr v ]
   let zin (z : string) = Css.zIndex z
-  let opacity (s : string) = [ // todo: why does this take string?
-    Prim.style "opacity" s
-    Prim.style "filter" ("alpha(opacity=" + (((float s) * 100.).ToString ()) + ")")
-  ]
+  let opacity = Css.opacity
   let javascript (s : string) = script [ type' "text/javascript"; raw s ]
   let import url = script [ type' "text/javascript"; src url ]
   let stylesheet url = link [ href url; rel "stylesheet"; type' "text/css" ]

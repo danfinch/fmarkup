@@ -3,8 +3,6 @@ namespace FMarkup
 
 // todo: dynamic compilation
 // todo: print DUs as strings/tuples
-// todo: break up code
-// todo: inlines
 
 open System
 open System.IO
