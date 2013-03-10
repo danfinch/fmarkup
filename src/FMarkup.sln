@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "Futility", "..\lib\futility\src\Futility\Futility.fsproj", "9982C39B-74B0-4B7A-B658-905777359DAD"
+EndProject
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "FMarkup", "FMarkup\FMarkup.fsproj", "{F9F2F85D-697C-42FD-A9EB-6FB1B9B1DC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9982C39B-74B0-4B7A-B658-905777359DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9982C39B-74B0-4B7A-B658-905777359DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9982C39B-74B0-4B7A-B658-905777359DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9982C39B-74B0-4B7A-B658-905777359DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F2F85D-697C-42FD-A9EB-6FB1B9B1DC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F2F85D-697C-42FD-A9EB-6FB1B9B1DC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F2F85D-697C-42FD-A9EB-6FB1B9B1DC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F2F85D-697C-42FD-A9EB-6FB1B9B1DC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ..\lib\futility\src\Futility\Futility.fsproj
+	EndGlobalSection
+EndGlobal
