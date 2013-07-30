@@ -47,10 +47,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" />
   <ItemGroup>
-    <Compile Include="Compact.fs" />
-    <Compile Include="Css.fs" />
-    <Compile Include="Html.fs" />
     <Compile Include="Model.fs" />
+    <Compile Include="Html.fs" />
+    <Compile Include="Css.fs" />
+    <Compile Include="Compact.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\futility\src\Futility\Futility.fsproj">
